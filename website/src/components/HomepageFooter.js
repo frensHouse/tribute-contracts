@@ -4,7 +4,7 @@ export default function HomepageFooter() {
   return (
     <footer>
       <div className="footer">
-        <p>&copy; TributeDAO Framework.</p>
+        <p>&copy; frensHouse Framework.</p>
       </div>
     </footer>
   );

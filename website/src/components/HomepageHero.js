@@ -30,27 +30,27 @@ function HomepageNavigation() {
       <ul className="nav__list" data-testid="nav__list">
         <li tabIndex={0}>
           <Link to="/docs/tutorial/dao/installation">
-            <span>Get Started</span>
+            <span>AUCTION</span>
           </Link>
         </li>
         <li tabIndex={0}>
           <Link to="/docs/intro/design/core/introduction">
-            <span>Core</span>
+            <span>SHOP</span>
           </Link>
         </li>
         <li tabIndex={0}>
           <Link to="/docs/intro/design/extensions/introduction">
-            <span>Extensions</span>
+            <span>APPLY</span>
           </Link>
         </li>
         <li tabIndex={0}>
           <Link to="/docs/intro/design/adapters/introduction">
-            <span>Adapters</span>
+            <span>FAQ</span>
           </Link>
         </li>
         <li tabIndex={0}>
           <Link to="https://demo.tributedao.com">
-            <span>Demo</span>
+            <span>CONTACT</span>
           </Link>
         </li>
       </ul>
@@ -100,7 +100,7 @@ export default function HomepageHero() {
           <CenterLogo />
           <div className="landing">
             <div className="landing__subtitle">
-              A next generation DAO framework
+              A next generation DAO
             </div>
 
             <div className="landing__img">
